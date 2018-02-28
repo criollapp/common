@@ -2,7 +2,7 @@
   "name": "@criollapp/common",
   "main": "./bundles/ca-common.umd.js",
   "typings": "./typings/public_api.d.ts",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "license": "MIT",
   "description": "This library has common tools for use on criollapp librarys.",
   "scripts": {
@@ -18,8 +18,7 @@
     "publish-lib": "npm publish ./dist",
     "publish-lib:next": "npm publish --tag next ./dist",
     "compodoc": "compodoc -p tsconfig.json",
-    "compodoc-serve": "compodoc -s",
-    "link": "npm link @x/theme"
+    "compodoc-serve": "compodoc -s"
   },
   "keywords": [
     "angular2",
@@ -31,7 +30,10 @@
     "type" : "git",
     "url" : "https://github.com/criollapp/common.git"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@criollapp/components": "^1.0.12",
+    "@criollapp/tests": "^1.0.12",
+    "zone.js": "^0.8.20",
     "@angular/cli": "^1.6.6",
     "@angular/common": "^5.2.2",
     "@angular/compiler": "^5.2.2",
@@ -57,10 +59,5 @@
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.10.0",
     "shelljs": "^0.8.1"
-  },
-  "dependencies": {
-    "@criollapp/components": "^1.0.6",
-    "@criollapp/tests": "^1.0.3",
-    "zone.js": "^0.8.20"
   }
 }

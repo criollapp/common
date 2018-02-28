@@ -9,6 +9,7 @@
     },
     "outDir": "dist",
     "declaration": true,
+    "declarationDir": "typings",
     "strict": true,
     "moduleResolution": "node",
     "module": "es6",
