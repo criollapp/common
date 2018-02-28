@@ -2,7 +2,7 @@
   "name": "@criollapp/common",
   "main": "./bundles/ca-common.umd.js",
   "typings": "./typings/public_api.d.ts",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "license": "MIT",
   "description": "This library has common tools for use on criollapp librarys.",
   "scripts": {
@@ -31,8 +31,8 @@
     "url" : "https://github.com/criollapp/common.git"
   },
   "dependencies": {
-    "@criollapp/components": "^1.0.12",
-    "@criollapp/tests": "^1.0.12",
+    "@criollapp/components": "^1.0.13",
+    "@criollapp/tests": "^1.0.13",
     "zone.js": "^0.8.20",
     "@angular/cli": "^1.6.6",
     "@angular/common": "^5.2.2",
