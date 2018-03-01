@@ -311,7 +311,7 @@ export default {
   input: 'public_api.ts',
   output: {
     format: 'umd',
-    file: 'bundles/x-common.umd.js'
+    file: 'bundles/ca-common.umd.js'
   },
     external: Object.keys(globals),
     plugins: [resolve(), sourcemaps(),
