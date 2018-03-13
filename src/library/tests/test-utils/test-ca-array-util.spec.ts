@@ -1,5 +1,5 @@
 import { CArrayUtil } from "../../utils/ca-array.util";
-import {TestModel} from '@criollapp/tests';
+import { TestModel } from "../utils/ca-test-model";
 
 describe('CArrayUtil', () => {
 

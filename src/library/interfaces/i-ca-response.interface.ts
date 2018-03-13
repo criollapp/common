@@ -1,4 +1,5 @@
-import { CAlertClass } from "@criollapp/components";
+
+import { CAlertClass } from "../class/ca-alert.class";
 
 export interface ICAResponse
 {

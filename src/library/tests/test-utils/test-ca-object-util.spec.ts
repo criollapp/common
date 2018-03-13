@@ -1,5 +1,5 @@
 import {CAObjectUtil} from '../../utils/ca-object.util';
-import {TestModel} from '@criollapp/tests';
+import { TestModel } from "../utils/ca-test-model";
 
 describe('CAObjectUtil', () => {
   let model: TestModel = new TestModel();

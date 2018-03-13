@@ -1,4 +1,4 @@
-import {TestModel} from '@criollapp/tests';
+import { TestModel } from "../utils/ca-test-model";
 
 describe('JsonDecorator', () => {
   const model: TestModel = new TestModel({

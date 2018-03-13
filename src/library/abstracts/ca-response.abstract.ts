@@ -1,5 +1,5 @@
 import { ICAResponse } from "../interfaces/i-ca-response.interface";
-import { CAlertClass } from "@criollapp/components";
+import { CAlertClass } from "../class/ca-alert.class";
 
 export abstract class CAResponseAbstract implements ICAResponse
 {

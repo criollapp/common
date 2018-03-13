@@ -1,6 +1,6 @@
 import { ICAResponse } from "../../interfaces/i-ca-response.interface";
 import { TestXResponseAbstract } from "../utils/test-ca-response-abstract.util";
-import { CAlertClass } from "@criollapp/components";
+import { CAlertClass } from "../../class/ca-alert.class";
 
 describe('ICAResponse',()=>{
   let implementation:ICAResponse = new TestXResponseAbstract();

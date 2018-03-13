@@ -1,5 +1,5 @@
 import {CAModelAbstract} from '../../abstracts/ca-model.abstract';
-import {TestModel} from '@criollapp/tests';
+import { TestModel } from "../utils/ca-test-model";
 import { TestXEmptyPropertyModel } from "../utils/test-ca-empty-properties-model.util";
 import { TestXModel } from "../utils/test-ca-model.util";
 

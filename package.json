@@ -31,8 +31,6 @@
     "url" : "https://github.com/criollapp/common.git"
   },
   "dependencies": {
-    "@criollapp/components": "^1.0.18",
-    "@criollapp/tests": "^1.0.18",
     "zone.js": "^0.8.20",
     "@angular/cli": "^1.6.6",
     "@angular/common": "^5.2.2",
