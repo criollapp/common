@@ -7,6 +7,7 @@ export {CAStringResponse} from './class/ca-string.response';
 export {CAModelAbstract} from './abstracts/ca-model.abstract';
 export {CAResponseAbstract} from './abstracts/ca-response.abstract';
 export {CAClassAbstract} from './abstracts/ca-class.abstract';
+export {CAlertClass} from './class/ca-alert.class';
 export {CAJson} from './decorators/ca-json.decorator';
 export {CANumberUtil} from './utils/ca-number.util';
 export {CAObjectUtil} from './utils/ca-object.util';
