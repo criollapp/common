@@ -2,7 +2,7 @@
   "name": "@criollapp/common",
   "main": "./bundles/ca-common.umd.js",
   "typings": "./typings/public_api.d.ts",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "license": "MIT",
   "description": "This library has common tools for use on criollapp librarys.",
   "scripts": {
@@ -26,23 +26,23 @@
     "example"
   ],
   "author": "Miguel Rivera",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/criollapp/common.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criollapp/common.git"
   },
   "dependencies": {
     "zone.js": "^0.8.20",
-    "@angular/cli": "^1.6.6",
-    "@angular/common": "^5.2.2",
-    "@angular/compiler": "^5.2.2",
-    "@angular/compiler-cli": "^5.2.2",
-    "@angular/core": "^5.2.2",
-    "@angular/platform-browser": "^5.2.2",
-    "@angular/platform-browser-dynamic": "^5.2.2",
-    "@angular/router": "^5.2.2",
+    "@angular/cli": "^1.7.3",
+    "@angular/common": "^5.2.9",
+    "@angular/compiler": "^5.2.9",
+    "@angular/compiler-cli": "^5.2.9",
+    "@angular/core": "^5.2.9",
+    "@angular/platform-browser": "^5.2.9",
+    "@angular/platform-browser-dynamic": "^5.2.9",
+    "@angular/router": "^5.2.9",
     "@types/jasmine": "^2.8.6",
-    "clean-css": "^4.1.9",
-    "html-minifier": "^3.5.8",
+    "clean-css": "^4.1.11",
+    "html-minifier": "^3.5.12",
     "jasmine-core": "^2.9.1",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
@@ -50,12 +50,12 @@
     "karma-jasmine": "^1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "node-sass": "^4.7.2",
-    "rollup": "^0.55.1",
+    "rollup": "^0.57.1",
     "rollup-plugin-angular": "^0.5.3",
-    "rollup-plugin-license": "^0.5.0",
-    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-license": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
-    "rollup-plugin-typescript2": "^0.10.0",
+    "rollup-plugin-typescript2": "^0.12.0",
     "shelljs": "^0.8.1"
   }
 }
