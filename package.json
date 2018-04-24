@@ -2,7 +2,7 @@
   "name": "@criollapp/common",
   "main": "./bundles/ca-common.umd.js",
   "typings": "./typings/public_api.d.ts",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "license": "MIT",
   "description": "This library has common tools for use on criollapp librarys.",
   "scripts": {
@@ -23,7 +23,8 @@
   "keywords": [
     "angular2",
     "library",
-    "example"
+    "common",
+    "utilities"
   ],
   "author": "Miguel Rivera",
   "repository": {
