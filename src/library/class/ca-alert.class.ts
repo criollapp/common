@@ -1,15 +1,13 @@
-import { CAClassAbstract } from "../abstracts/ca-class.abstract";
+import { CAKeyValue } from "./ca-key-value.class";
 
-export class CAlertClass extends CAClassAbstract {
+export class CAlertClass extends CAKeyValue {
 
   static readonly TYPE_WARNING = 'warning';
   static readonly TYPE_INFO = 'info';
   static readonly TYPE_SUCCESS = 'success';
   static readonly TYPE_DANGER = 'danger';
 
-  public message = '';
   public type = '';
-  public key = '';
   public allowClose: boolean;
 
   constructor(message: string = '', type: string = '', key = '', allowClose = false) {
@@ -19,6 +17,16 @@ export class CAlertClass extends CAClassAbstract {
     this.type = type == '' ? CAlertClass.TYPE_INFO : type;
     this.key = key;
     this.allowClose = allowClose;
+  }
+
+  public get message()
+  {
+    return this.value;
+  }
+
+  public set message( message:string )
+  {
+    this.value = message;
   }
 
   public static alertExists( alerts: CAlertClass[], messageToSearch: string): Boolean {

@@ -1,7 +1,7 @@
 import {
   CAServiceAbstract, CAPageAbstract, CAClassAbstract, CACommonModule,
   CAModelAbstract,  CAJson,  CAGeneratorUtil, CANumberUtil, ICACrudService,
-  ICAModel, ICAResponse, CAModelResponse, ICAStep, CAlertClass,
+  ICAModel, ICAResponse, CAModelResponse, ICAStep, CAlertClass, CAKeyValue,
   CArrayUtil, CAResponseAbstract, CAStringArrayResponse, CAStringResponse, CABooleanResponse, CAModelArrayResponse
 } from '../ca-common';
 
