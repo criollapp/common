@@ -2,7 +2,7 @@
   "name": "@criollapp/common",
   "main": "./bundles/ca-common.umd.js",
   "typings": "./typings/public_api.d.ts",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "license": "MIT",
   "description": "This library has common tools for use on criollapp librarys.",
   "scripts": {

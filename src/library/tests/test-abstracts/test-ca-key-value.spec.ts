@@ -11,4 +11,11 @@ describe('CAKeyValue', () => {
     expect(keyValue.value).toBe('');
   });
 
+  it('key and value are inserted by constructor', () => {
+    let keyValue:CAKeyValue = new CAKeyValue( 'myKey', 'myValue' );
+
+    expect(keyValue.key).toBe('myKey');
+    expect(keyValue.value).toBe('myValue');
+  });
+
 });
